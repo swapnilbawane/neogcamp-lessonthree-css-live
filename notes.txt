@@ -17,3 +17,25 @@ CSS import and selectors.
 
 SETUP DEV ENVIRONMENT
 Split right in VS Code, two files. 
+
+Google font 
+montessarat 
+weights of fonts 
+700 
+400 
+importing font style 
+
+sans font and what is not 
+
+css rules 
+where to apply font family? 
+body 
+
+css box model mbpc 
+css units - rem em px vh % 
+relative - rem 
+
+more than one class 
+
+margin auto - put in center 
+
