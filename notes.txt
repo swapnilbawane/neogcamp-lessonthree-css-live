@@ -38,4 +38,8 @@ relative - rem
 more than one class 
 
 margin auto - put in center 
+css variable 
+root elements
 
+only two 
+container definition changed 
