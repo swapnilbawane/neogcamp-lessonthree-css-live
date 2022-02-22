@@ -3,6 +3,8 @@
 :root{
     --primary-color: #a855f7;
     --dark-gray: #64748b;
+    --off-white: #f3f4f6;
+ 
 }
 
 /** root is applied to whole file here. **/ 
@@ -115,3 +117,26 @@ color: var(--dark-gray);
     color: var(--primary-color);
 }
 
+/* Developer screencast mode ctrl shift P */
+
+/* Section */
+
+.section {
+    padding: 2rem;
+}
+
+/* section h1 will exclusively apply the rule to h1 only
+to make it apply for entire section, you need to define it separately as above.
+ */
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+/* beautify file */
+
+.ow{
+ background-color: var(--off-white);   
+}
+
+/* Div added to sections to enable adding container 
+that will help to keep container in center. */
