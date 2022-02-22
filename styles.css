@@ -14,6 +14,8 @@ suggests that if we change it at variable definition, it changes everywhere it i
 body
 {
 font-family: 'Montserrat', sans-serif;
+margin: 0px;
+/* margin overrules Chrome default values */
 }
 
 hr {
@@ -111,6 +113,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
 color: var(--dark-gray);
+text-align: center;
 }
 
 .hero .hero-heading .heading-inverted{
@@ -140,3 +143,22 @@ to make it apply for entire section, you need to define it separately as above.
 
 /* Div added to sections to enable adding container 
 that will help to keep container in center. */
+
+/* footer */
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .social-links .link{
+    color: white;
+}
+/* overwriting by finding where is the element. footer then social link and then link. No separate definition made just reused the same class but defined it according to its closest parent. */
