@@ -35,18 +35,19 @@
     <h2>@container</h2>
     
     <h3>fluid container</h3>
-    <div class="container-fluid">This is a fluid container and it will go till the end of the page. </div>
+    <div class="container">This is a fluid container and it will go till the end of the page. </div>
 
     <h3>center container</h3>
-    <div class="container">This is a centered container and it will go till the specified width.. </div>
+    <div class="container-center">This is a centered container and it will go till the specified width.. </div>
 
     <!-- ALL ABOUT FORMATTING LINKS  -->
     <!-- We do styling here about links which should go primary and what should go secondary. Whether links should be inline or block is decided by ul css definition.  -->
 
     <hr> 
+
     <h2>@links</h2>
-    <a class="link primary link" href="/">Primary link</a>
-    <a class="link" href="/">Secondary link</a>
+    <a class="link link-primary" href="/"> Primary link </a>
+    <a class="link link-secondary" href="/">Secondary link</a>
 
     <!-- ALL ABOUT FORMATTING LINKS -->
     <!-- lists can be block element  -->
@@ -56,19 +57,11 @@
     <hr>
     
     <h2> @lists </h2> 
-    <div> 
-        Here's my list
-        <div> 1. Item one  </div>
-        <div> 2. Item two  </div>
-        <div> 3. Item three  </div>
-    </div>
-
-    <h2>@Lists</h2>
-    
+     
     <h3> unordered lists </h3>
     <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li> Item One </li>
         <li> Item Two </li>
         <li> Item Three </li>
@@ -77,10 +70,10 @@
     <h3>unordered inline list</h3>
     <p>Instead of going in a new row, we will create a list which will take columns.</p>
 
-     <ul>
-         <li>Inline item One</li>
-         <li>Inline item Two</li>
-         <li>Inline item Three</li>
+     <ul class="list-non-bullet">
+         <li class="list-item-inline">Inline item One</li>
+         <li class="list-item-inline">Inline item Two</li>
+         <li class="list-item-inline">Inline item Three</li>
      </ul>
      
      <h3> reverse ordered list</h3>
@@ -98,20 +91,20 @@
 <h2>@nav</h2>
 <p>Navigation is used on the top of the page and used to get to different pages</p>
 
-<nav>
-<div> Iambrand</div>
-<ul>
-    <li>
-        <a href="/" > Home </a>
+<nav class="navigation container">
+<div class="nav-brand"> Iambrand</div>
+<ul class="list-non-bullet nav-pills">
+    <li class="list-item-inline">
+        <a class="link link-active" href="/" > Home </a>
     </li>
 
-    <li>
-        <a href="/" > Products </a> 
+    <li class="list-item-inline">
+        <a class="link" href="/" > Products </a> 
 
     </li>
 
-    <li>
-        <a href="/" > About </a>
+    <li class="list-item-inline">
+        <a class="link" href="/" > About </a>
     </li>
 </ul>
 </nav>
