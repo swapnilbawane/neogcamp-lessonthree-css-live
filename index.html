@@ -8,39 +8,54 @@
     <title>Component library </title>
 </head>
 <body>
+    <!-- TOP PORTION - DECIDES WHAT IS THE TOPIC -->
+    <!-- We write the main description here  -->
+
     <h1> Welcome to Swapnil's component library </h1>
-    <p> I am attending neogcamp amd I want to make a library which would make all my projects look good and consistent. </p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2> This is the second biggest </h2>
-    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <p> This paragraph will have a <strong> bold </strong> text </p>
-    <small> This is relatively smaller text. </small>
-    // accessibility tree 
+    <p> <strong> I am </strong> attending neogcamp amd I want to make a library which would make all my projects look good and consistent. </p>
+    <p> This is a component library created to design each element. </p>
+    <p> After creating this library I am going to use the components in my <strong> portfolio and all projects</strong> that I have created. This will ensure that all my projects have <strong> consistent theme and styling </strong> </p>
+    
+    <!-- DECIDES WHAT IS THE FONT. FORMATTING FONTS FROM HERE  -->
+    <!-- We import fonts here  -->
 
     <hr>
+    <h2>@typography - TO DECIDE FONTS </h2>
 
+    <h1>This is the biggest heading h1 </h1>
+    <h2> This is the second biggest h2 </h2>
+    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph. This is normal text. Long running text would look like this on your website. This will auto fold based on the width. </p>
+   
+    <p class="text-sm"> This is relatively smaller text. </p>
+    
+    <!-- ALL ABOUT FORMATTING CONTAINERS -->
+    <!-- We format containers here deciding which will go center or stay fluid -->
+
+    <hr>
     <h2>@container</h2>
+    
     <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page. </div>
+    <div class="container-fluid">This is a fluid container and it will go till the end of the page. </div>
 
     <h3>center container</h3>
-    <div class="container-center">This is a centered container and it will go till the specified width.. </div>
+    <div class="container">This is a centered container and it will go till the specified width.. </div>
+
+    <!-- ALL ABOUT FORMATTING LINKS  -->
+    <!-- We do styling here about links which should go primary and what should go secondary. Whether links should be inline or block is decided by ul css definition.  -->
 
     <hr> 
-
     <h2>@links</h2>
     <a class="link primary link" href="/">Primary link</a>
     <a class="link" href="/">Secondary link</a>
 
-    block element 
-    inline element heading 
+    <!-- ALL ABOUT FORMATTING LINKS -->
+    <!-- lists can be block element  -->
+    <!-- Lists can be inline element  -->
+    <!-- Here we do some styling as in remove the underline through text decoration then add border etc etc and color it to make it stand out as a button.  -->
 
     <hr>
-
-    @lists
+    
+    <h2> @lists </h2> 
     <div> 
         Here's my list
         <div> 1. Item one  </div>
@@ -49,7 +64,9 @@
     </div>
 
     <h2>@Lists</h2>
-    <h3> Unordered list</h3>
+    
+    <h3> unordered lists </h3>
+    <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
 
     <ul>
         <li> Item One </li>
@@ -57,28 +74,31 @@
         <li> Item Three </li>
      </ul>
 
-     <h3>Unordered inline list</h3>
+    <h3>unordered inline list</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
 
      <ul>
          <li>Inline item One</li>
          <li>Inline item Two</li>
          <li>Inline item Three</li>
      </ul>
-     <!-- https://www.youtube.com/watch?v=No8qdcVYiQw&t=3133s -->
-
+     
      <h3> reverse ordered list</h3>
-<!-- https://youtu.be/No8qdcVYiQw?t=3243 -->
-<ol>
-    <li> milk </li>
-    <li> paneer </li>
-    <li> dahi </li>
-</ol>
+     <p>Counting of will go reverse for this list </p>
+     <ol reversed>
+        <li>something</li>
+        <li>something else</li>
+        <li>something elser</li>
+    </ol>
 
 <hr>
 
-<h2>@nav</h2>
+<!-- NAVIGATION FORMATTING -->
 
-<p> hello </p>
+<h2>@nav</h2>
+<p>Navigation is used on the top of the page and used to get to different pages</p>
+
+<nav>
 <div> Iambrand</div>
 <ul>
     <li>
@@ -94,7 +114,7 @@
         <a href="/" > About </a>
     </li>
 </ul>
-
+</nav>
 
 <hr>
 
@@ -106,15 +126,13 @@
 
 </header>
 
+<!-- SECTIONS  -->
 <hr>
 
 <h2> @Section </h2>
-<!-- <h3> Fluid section </h3>
-<p> This will go end to end with little margin at both sides. </p>
+<p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
 
-<h3> Center section </h3>
-<p> This will go end to end with little margin at both sides. </p> -->
-
+    <h3>@normal section</h3>
 <section>
     <h3> White section </h3>
     <p> This will have white background. </p>
@@ -122,10 +140,11 @@
 
 
 <section>
-    <h3> Non White section </h3>
+    <h3>@an off white section </h3>
     <p> This will have gray background. </p>
 </section>
 
+<!-- FOOTER FORMATTING -->
 <hr>
 <h2> @footer </h2>
 <footer>

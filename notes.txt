@@ -43,3 +43,34 @@ root elements
 
 only two 
 container definition changed 
+
+
+This is replaced by below 
+definition if only two are 
+mentioned it means top and right 
+and the other two will be given 
+values according to top and 
+bottom so here since only left 
+and right is there we use 0 for 
+top and bottom 
+values 
+
+/** Links **/ 
+/** if you specify only two top 
+details are applied to bottom and 
+right details specifications are 
+applied to left **/
+
+margin auto it brings things into center 
+
+links: <!-- https://www.youtube.com/watch?v=No8qdcVYiQw&
+t=3133s -->
+<!-- https://youtu.be/No8qdcVYiQw?t=3243 -->
+
+<!-- <h3> Fluid section </h3>
+<p> This will go end to end with little margin at both 
+sides. </p>
+
+<h3> Center section </h3>
+<p> This will go end to end with little margin at both 
+sides. </p> -->

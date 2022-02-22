@@ -13,23 +13,27 @@ body
 font-family: 'Montserrat', sans-serif;
 }
 
-/** container **/
-.container {
-    /* padding-left: 1rem;
-    padding-right: 1rem; 
-    This is replaced by below definition if only two are mentioned it means top and right and the other two will be given 
-    values according to top and bottom so here since only left and right is there we use 0 for top and bottom 
-    values */
-    padding: 0rem 1rem;
+hr {
+    margin: 1rem 0;
 }
 
-.container-center {
+.text-sm {
+    font-size: 0.8em;
+}
+
+/* * container * */
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem; 
+}
+
+.container {
+   padding-left: 1rem;
+    padding-right: 1rem; 
     max-width: 600px;
     margin: auto;
 }
-
-/** Links **/ 
-/** if you specify only two top details are applied to bottom and right details specifications are applied to left **/
 
 .link {
     text-decoration: none;
