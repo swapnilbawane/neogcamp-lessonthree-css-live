@@ -74,3 +74,6 @@ sides. </p>
 <h3> Center section </h3>
 <p> This will go end to end with little margin at both 
 sides. </p> -->
+
+Root and relative path. HTML file paths.
+Routing after shifting the files to lib folder.

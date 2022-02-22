@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet"/> 
+    <title>Component library </title>
+</head>
+<body>
+    <!-- TOP PORTION - DECIDES WHAT IS THE TOPIC -->
+    <!-- We write the main description here  -->
+
+    <h1> Welcome to Swapnil's component library </h1>
+    <p> <strong> I am </strong> attending neogcamp amd I want to make a library which would make all my projects look good and consistent. </p>
+    <p> This is a component library created to design each element. </p>
+    <p> After creating this library I am going to use the components in my <strong> portfolio and all projects</strong> that I have created. This will ensure that all my projects have <strong> consistent theme and styling </strong> </p>
+    
+    <!-- DECIDES WHAT IS THE FONT. FORMATTING FONTS FROM HERE  -->
+    <!-- We import fonts here  -->
+
+    <hr>
+    <h2>@typography - TO DECIDE FONTS </h2>
+
+    <h1>This is the biggest heading h1 </h1>
+    <h2> This is the second biggest h2 </h2>
+    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph. This is normal text. Long running text would look like this on your website. This will auto fold based on the width. </p>
+   
+    <p class="text-sm"> This is relatively smaller text. </p>
+    
+    <!-- ALL ABOUT FORMATTING CONTAINERS -->
+    <!-- We format containers here deciding which will go center or stay fluid -->
+
+    <hr>
+    <h2>@container</h2>
+    
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page. </div>
+
+    <h3>center container</h3>
+    <div class="container-center">This is a centered container and it will go till the specified width.. </div>
+
+    <!-- ALL ABOUT FORMATTING LINKS  -->
+    <!-- We do styling here about links which should go primary and what should go secondary. Whether links should be inline or block is decided by ul css definition.  -->
+
+    <hr> 
+
+    <h2>@links</h2>
+    <a class="link link-primary" href="/"> Primary link </a>
+    <a class="link link-secondary" href="/">Secondary link</a>
+
+    <!-- ALL ABOUT FORMATTING LINKS -->
+    <!-- lists can be block element  -->
+    <!-- Lists can be inline element  -->
+    <!-- Here we do some styling as in remove the underline through text decoration then add border etc etc and color it to make it stand out as a button.  -->
+
+    <hr>
+    
+    <h2> @lists </h2> 
+     
+    <h3> unordered lists </h3>
+    <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
+
+    <ul class="list-non-bullet">
+        <li> Item One </li>
+        <li> Item Two </li>
+        <li> Item Three </li>
+     </ul>
+
+    <h3>unordered inline list</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
+
+     <ul class="list-non-bullet">
+         <li class="list-item-inline">Inline item One</li>
+         <li class="list-item-inline">Inline item Two</li>
+         <li class="list-item-inline">Inline item Three</li>
+     </ul>
+     
+     <h3> reverse ordered list</h3>
+     <p>Counting of will go reverse for this list </p>
+     <ol reversed>
+        <li>something</li>
+        <li>something else</li>
+        <li>something elser</li>
+    </ol>
+
+<hr>
+
+<!-- NAVIGATION FORMATTING -->
+
+<h2>@nav</h2>
+<p>Navigation is used on the top of the page and used to get to different pages</p>
+
+<nav class="navigation container">
+<div class="nav-brand"> IamDeveloper</div>
+<ul class="list-non-bullet nav-pills">
+    <li class="list-item-inline">
+        <a class="link link-active" href="/" > Home </a>
+    </li>
+
+    <li class="list-item-inline">
+        <a class="link" href="/" > Products </a> 
+
+    </li>
+
+    <li class="list-item-inline">
+        <a class="link" href="/" > About </a>
+    </li>
+</ul>
+</nav>
+
+<hr>
+
+<h2>@header</h2>
+<header class="hero">  
+    <img class="hero-img" src="/hero.png"/>
+    
+    <h1 class="hero-heading">Heading inside <span class="heading-inverted"> hero </span> </h1>
+
+</header>
+
+<!-- SECTIONS  -->
+<hr>
+
+<h2> @Section </h2>
+<p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+
+    <h3>@normal section</h3>
+
+<section class="section">
+    <div class="container container-center">
+    <h1> @White section </h1>
+    <p> This will have white background. </p>
+</div>
+</section>
+
+
+<section class="section ow">
+    <div class="container container-center">
+    <h1>@an off white section </h1>
+    <p> This will have gray background. </p>
+</div>
+</section>
+
+<!-- FOOTER FORMATTING -->
+<hr>
+<h2> @footer </h2>
+<footer class="footer">
+
+    <div class="footer-header"> Some small heading inside footer > </div>
+    <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"> 
+            
+            <a class="link" href=""> Social one  </a>
+
+        </li>
+
+        <li class="list-item-inline"> 
+            
+            <a class="link" href=""> Social two  </a>
+            
+        </li>
+
+        <li class="list-item-inline"> 
+            
+            <a class="link" href=""> Social three  </a>
+            
+        </li>
+        
+    </ul>
+
+</footer>
+
+<!-- This below is to make sure last piece of code is always above 30vh above bottom -->
+
+    <div style="height: 30vh;">
+    </div>
+
+<!-- After shifting the files to lib folder, /path is changed
+so path is added with / for css and images
+This is also called route link 
+
+Root and relative path.  -->
+</body>
+</html>
